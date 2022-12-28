@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color:rgb(210, 109, 104);
+    border-radius: 20px;
+    margin: 10vh auto;
+}
+
+
+.transform1{
+    transform-origin:bottom left;
+    transition: all 1s linear;
+}
+
+.transform1:hover {
+    transform: rotate(90deg) scale(1.5,1.5);
+}
